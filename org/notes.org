@@ -1,0 +1,1 @@
+I am too hungry for this, but I have some tabs up about how to apply styling to Nextjs Links and I should look at them to get this navbar thing working right.

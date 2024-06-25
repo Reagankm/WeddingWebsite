@@ -1,0 +1,45 @@
+/*html {*/
+/*    background-color: rgb(150, 164, 151);*/
+/*}*/
+/*
+div {
+    color: lightblue;
+}*/
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+.navbar .listItem {
+    position: relative;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    /*color: lightblue;*/
+    font-family: 'Libre Baskerville', serif;
+    font-size: 16px;
+    line-height: 1.63;
+    display: block;
+    position: relative;
+}
+.underline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    /*background-color: lightblue;*/
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+.navbar .listItem .active .underline, .navbar .listItem:hover .underline {
+    transform: scaleX(1) !important;
+}
+
+.mantine-Title-root {
+    text-align: center;
+}
