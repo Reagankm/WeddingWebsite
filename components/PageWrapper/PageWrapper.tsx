@@ -1,10 +1,9 @@
-import { Container, Flex, Grid, Space, Center, Stack } from '@mantine/core';
+import { Flex, Grid, Space, Stack } from '@mantine/core';
 import Image from 'next/image';
 import React, { PropsWithChildren } from 'react';
 
 import vineSvg from '../../assets/vine_thing.svg';
 import Header from '../Header/Header';
-
 import styles from './PageWrapper.module.css';
 
 // const Josefin = Josefin_Sans({ weight: '400', subsets: ['latin'] });

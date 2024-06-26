@@ -1,14 +1,5 @@
-import vineSvg from '@/assets/vine_thing.svg';
 import PageWrapper from '@/components/PageWrapper/PageWrapper';
-import {
-    Title,
-    Container,
-    Center,
-    Text,
-    Space,
-    Grid,
-    Flex
-} from '@mantine/core';
+import { Center, Flex, Grid, Space, Text, Title } from '@mantine/core';
 import Image from 'next/image';
 import React from 'react';
 
@@ -104,7 +95,6 @@ export default function Registry() {
             <Center>
                 <Flex visibleFrom='md' h='100%' direction='col' justify='center' align='center'>
                     <Image src={bird}
-                        //fill
                            style={{ objectFit: 'contain' }}
                            width={birdW * birdScale}
                            height={birdH * birdScale}
@@ -113,7 +103,6 @@ export default function Registry() {
                 </Flex>
                 <Flex hiddenFrom='md' h='100%' direction='col' justify='center' align='center'>
                     <Image src={bird}
-                        //fill
                            style={{ objectFit: 'contain' }}
                            width={birdW * birdScale / 2}
                            height={birdH * birdScale / 2}
