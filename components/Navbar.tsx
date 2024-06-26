@@ -7,9 +7,9 @@ export default function Navbar() {
     const paths = [
         { href: '/', label: 'Home' },
         // { href: '/attire', label: 'Attire' },
-        { href: '/faqs', label: 'FAQs' },
+        //{ href: '/faqs', label: 'FAQs' },
         { href: '/registry', label: 'Registry' },
-        { href: '/schedule', label: 'Schedule' },
+        //{ href: '/schedule', label: 'Schedule' },
         { href: '/travel', label: 'Travel' },
     ];
 
@@ -22,7 +22,7 @@ export default function Navbar() {
                 <div className="listItem" key={link.href}>
                     <div className={router.pathname === link.href ? 'active' : ''}>
                         <Link href={link.href} >
-                            <Text>{link.label}</Text>
+                            <Text fz={'1.25rem'}>{link.label}</Text>
                         </Link>
                         <div className={`underline ${router.pathname === link.href ? 'active' : ''}`}></div>
                     </div>

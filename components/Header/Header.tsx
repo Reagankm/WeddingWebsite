@@ -1,8 +1,7 @@
-import { Container, Text, Title } from '@mantine/core';
+import { Container, Title } from '@mantine/core';
 import { Protest_Revolution } from 'next/font/google';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import React from 'react';
+
 import Navbar from '../Navbar';
 
 const Protest = Protest_Revolution({weight: '400', subsets: ['latin']});

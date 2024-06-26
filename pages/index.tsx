@@ -1,14 +1,17 @@
-import { Box, Center, Title, Container, Grid, Text } from '@mantine/core';
-import { Space } from '@mantine/core';
+import { Center, Container, Grid, Space, Title } from '@mantine/core';
 import {
-    Bungee_Shade, Expletus_Sans,
+    Bungee_Shade,
+    Expletus_Sans,
     Josefin_Sans,
-    Julius_Sans_One, Overlock_SC, Protest_Revolution,
+    Julius_Sans_One,
+    Overlock_SC,
+    Protest_Revolution,
     Tenor_Sans
 } from 'next/font/google';
-import React from 'react';
-import PageWrapper from '../components/PageWrapper/PageWrapper';
 import localFont from 'next/font/local';
+import React from 'react';
+
+import PageWrapper from '@/components/PageWrapper/PageWrapper';
 
 const Julius = Julius_Sans_One({ weight: '400', subsets: ['latin'] });
 
@@ -20,7 +23,7 @@ const Overlock = Overlock_SC({weight: '400', subsets: ['latin']});
 const Josefin = Josefin_Sans({ weight: '400', subsets: ['latin'] });
 const victorian = localFont({src: '../assets/fonts/Victorian Supremacy Demo.otf'});
 
-export default function HomePage() {
+const HomePage = () => {
     return (
         <PageWrapper>
             {/*<Center>*/}
@@ -55,3 +58,5 @@ export default function HomePage() {
         </PageWrapper>
     )
 }
+
+export default HomePage;

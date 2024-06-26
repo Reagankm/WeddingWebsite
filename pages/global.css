@@ -49,3 +49,8 @@ a {
 .bg-opacity-75 {
     opacity: .75;
 }
+
+.flip-horizontal {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

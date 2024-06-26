@@ -5,7 +5,6 @@ import React, { PropsWithChildren } from 'react';
 import vineSvg from '../../assets/vine_thing.svg';
 import Header from '../Header/Header';
 
-
 // const Josefin = Josefin_Sans({ weight: '400', subsets: ['latin'] });
 // const Julius = Julius_Sans_One({ weight: '400', subsets: ['latin'] });
 // const titleFont = Julius;
@@ -28,13 +27,9 @@ const PageWrapper = (props: PropsWithChildren) => {
                     {props.children}
                 </Container>
             </Grid.Col>
-            <Grid.Col visibleFrom='md'
-                      span={{base: 2}}>
+            <Grid.Col visibleFrom='md' span={{base: 2}}>
                 <Flex visibleFrom='md' h='100%' direction='col' justify='center' align='center'>
                     <Image className={'bg-opacity-75'} src={vineSvg} />
-                </Flex>
-                <Flex hiddenFrom='md'  h='100%' direction='col' justify='center' align='center'>
-                    <Image className={'bg-opacity-25'} src={vineSvg} />
                 </Flex>
             </Grid.Col>
         </Grid>
