@@ -28,6 +28,7 @@ export default function Registry() {
                         <Flex visibleFrom='md' h='100%' //direction='col'
                               justify='center' align='center'>
                             <Image src={person1}
+                                   alt='a person reading'
                                    className={'flip-horizontal'}
                                    style={{ objectFit: 'contain' }}
                                    width={person1W * personScale}
@@ -37,6 +38,7 @@ export default function Registry() {
                         <Flex hiddenFrom='md' h='100%' //direction='col'
                               justify='center' align='center'>
                             <Image src={person1}
+                                   alt='a person reading'
                                    className={'flip-horizontal'}
                                    style={{ objectFit: 'contain' }}
                                    width={person1W * personScale / 2}
@@ -49,6 +51,7 @@ export default function Registry() {
                         <Flex visibleFrom='md' h='100%' //direction='col'
                               justify='center' align='center'>
                             <Image src={person2}
+                                   alt='a person reading'
                                    style={{ objectFit: 'contain' }}
                                    width={person2W * personScale}
                                    height={person2H * personScale}
@@ -57,6 +60,7 @@ export default function Registry() {
                         <Flex hiddenFrom='md' h='100%'// direction='col'
                               justify='center' align='center'>
                             <Image src={person2}
+                                   alt='a person reading'
                                    style={{ objectFit: 'contain' }}
                                    width={person2W * personScale / 2}
                                    height={person2H * personScale / 2}

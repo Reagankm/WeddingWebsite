@@ -17,11 +17,11 @@ const PageWrapper = (props: PropsWithChildren) => {
             <Grid.Col span={{base: 2, lg: 2, xs: 3}}>
                 <Flex style={{ height: '100vh' }} visibleFrom='sm' // direction='col'
                       justify='center' align='center'>
-                    <Image className={'bg-opacity-75'} src={vineSvg} />
+                    <Image alt='vine illustration' className={'bg-opacity-75'} src={vineSvg} />
                 </Flex>
                 <Flex style={{ height: '100vh' }} hiddenFrom='sm'  h='100%'// direction='col'
                       justify='center' align='center'>
-                    <Image className={'bg-opacity-25'} src={vineSvg} />
+                    <Image alt='vine illustration' className={'bg-opacity-25'} src={vineSvg} />
                 </Flex>
             </Grid.Col>
             <Grid.Col span={{base: 8, lg: 8, xs: 9}}
@@ -35,7 +35,7 @@ const PageWrapper = (props: PropsWithChildren) => {
             <Grid.Col visibleFrom='md' span={{base: 2}}>
                 <Flex style={{ height: '100vh' }} visibleFrom='lg' h='100%' //direction='col'
                       justify='center' align='center'>
-                    <Image className={'bg-opacity-75'} src={vineSvg} />
+                    <Image alt='vine illustration' className={'bg-opacity-75'} src={vineSvg} />
                 </Flex>
             </Grid.Col>
         </Grid>
