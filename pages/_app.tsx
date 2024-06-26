@@ -26,12 +26,13 @@ const resolver: CSSVariablesResolver = (theme) => ({
 
   },
   light: {
-    '--mantine-color-body': theme.colors['mutedGreen'][1],
+    '--mantine-color-body': theme.colors['greyGreen'][4],
+    // '--mantine-color-body': theme.colors['mutedGreen'][1],
   },
   dark: {
-    //'--mantine-color-body': theme.colors['greyGreen'][3],
+    '--mantine-color-body': theme.colors['greyGreen'][4],
     // '--mantine-color-body': theme.colors['lightGreen'][4],
-    '--mantine-color-body': theme.colors['mutedGreen'][1],
+    // '--mantine-color-body': theme.colors['mutedGreen'][1],
   },
 });
 
