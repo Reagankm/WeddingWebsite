@@ -74,14 +74,24 @@ export const theme = createTheme({
                 fontWeight: '400',
             },
             h2: {
+                fontSize: '3rem',
+                fontWeight: '400',
+            },
+            h3: {
                 fontSize: '2rem',
                 fontWeight: '400',
+            },
+            h4: {
+                fontSize: '1.5rem',
             }
         }
     },
     fontFamily: Libre.style.fontFamily,
     fontSizes: {
 
+    },
+    breakpoints: {
+        xs: '0em',
     },
     other: {
         globalStyles: (theme) => ({

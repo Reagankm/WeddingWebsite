@@ -14,7 +14,6 @@ import React from 'react';
 import PageWrapper from '@/components/PageWrapper/PageWrapper';
 
 const Julius = Julius_Sans_One({ weight: '400', subsets: ['latin'] });
-
 const Tenor = Tenor_Sans({weight: '400', subsets: ['latin']});
 const Protest = Protest_Revolution({weight: '400', subsets: ['latin']});
 const Expletus = Expletus_Sans({weight: '400', subsets: ['latin']});
@@ -26,7 +25,6 @@ const victorian = localFont({src: '../assets/fonts/Victorian Supremacy Demo.otf'
 const HomePage = () => {
     return (
         <PageWrapper>
-            {/*<Center>*/}
             <Grid>
                 <Grid.Col>
                     <Container size={'md'} p={'xl'} visibleFrom='md'>
@@ -38,23 +36,22 @@ const HomePage = () => {
                     </Container>
 
                     <Container size={'xs'} p={'xl'} hiddenFrom='md'>
-                        <Title order={2} >Kevin Ward</Title>
+                        <Title order={3} >Kevin Ward</Title>
                         <Center>
-                            <Title  order={2} style={{fontFamily: Protest.style.fontFamily, fontSize:'4rem'}}>&</Title>
+                            <Title  order={3} style={{fontFamily: Protest.style.fontFamily, fontSize:'4rem'}}>&</Title>
                         </Center>
-                        <Title  order={2}>Reagan Middlebrook</Title>
+                        <Title  order={3}>Reagan Middlebrook</Title>
                     </Container>
 
                     <Space h="xl" />
 
                     <Container>
-                        <Title order={2}>February 1, 2025</Title>
-                        <Title order={2} >Save the Date</Title>
+                        <Title order={3}>February 1, 2025</Title>
+                        <Title order={3} >Save the Date</Title>
                     </Container>
 
                 </Grid.Col>
             </Grid>
-            {/*</Center>*/}
         </PageWrapper>
     )
 }
