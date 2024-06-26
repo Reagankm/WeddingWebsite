@@ -25,7 +25,7 @@ export default function Registry() {
             <Center>
                 <Grid>
                     <Grid.Col span={6}>
-                        <Flex visibleFrom='md' h='100%' direction='col'
+                        <Flex visibleFrom='md' h='100%' //direction='col'
                               justify='center' align='center'>
                             <Image src={person1}
                                    className={'flip-horizontal'}
@@ -34,7 +34,7 @@ export default function Registry() {
                                    height={person1H * personScale}
                             />
                         </Flex>
-                        <Flex hiddenFrom='md' h='100%' direction='col'
+                        <Flex hiddenFrom='md' h='100%' //direction='col'
                               justify='center' align='center'>
                             <Image src={person1}
                                    className={'flip-horizontal'}
@@ -46,7 +46,7 @@ export default function Registry() {
                     </Grid.Col>
 
                     <Grid.Col span={6}>
-                        <Flex visibleFrom='md' h='100%' direction='col'
+                        <Flex visibleFrom='md' h='100%' //direction='col'
                               justify='center' align='center'>
                             <Image src={person2}
                                    style={{ objectFit: 'contain' }}
@@ -54,7 +54,7 @@ export default function Registry() {
                                    height={person2H * personScale}
                             />
                         </Flex>
-                        <Flex hiddenFrom='md' h='100%' direction='col'
+                        <Flex hiddenFrom='md' h='100%'// direction='col'
                               justify='center' align='center'>
                             <Image src={person2}
                                    style={{ objectFit: 'contain' }}
@@ -91,7 +91,8 @@ export default function Registry() {
             <Text>If you've finished it and you love it, we'd be honored to
                 receive a copy.</Text>
             <Center>
-                <Flex visibleFrom='md' h='100%' direction='col' justify='center' align='center'>
+                <Flex visibleFrom='md' h='100%' //direction='col'
+                      justify='center' align='center'>
                     <Image src={bird}
                            style={{ objectFit: 'contain' }}
                            width={birdW * birdScale}
@@ -99,7 +100,8 @@ export default function Registry() {
                            alt='a bird with a halo sits atop an open book'
                     />
                 </Flex>
-                <Flex hiddenFrom='md' h='100%' direction='col' justify='center' align='center'>
+                <Flex hiddenFrom='md' h='100%' //direction='col'
+                      justify='center' align='center'>
                     <Image src={bird}
                            style={{ objectFit: 'contain' }}
                            width={birdW * birdScale / 2}

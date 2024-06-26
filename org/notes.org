@@ -1,1 +1,3 @@
-I am too hungry for this, but I have some tabs up about how to apply styling to Nextjs Links and I should look at them to get this navbar thing working right.
+* 6/26/24
+
+Got "permission denied (publickey)" error when I tried to ssh into my existing Linode domains.  Tried searching my notes but didn't find previous cases of this.
