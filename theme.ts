@@ -48,7 +48,7 @@ export const theme = createTheme({
     //scale: 1.25,
     components: {
         HTML: {
-            styles: (theme) => ({
+            styles: (theme: any) => ({
                 root: {
                     backgroundColor: theme.fn.themeColor('pink', theme.fn.primaryShade),
                     //backgroundColor: theme.colorScheme === 'dark' ? theme.colors['muted-green'][7] : '#96A497',
@@ -57,7 +57,7 @@ export const theme = createTheme({
             }),
         },
       Body: {
-          styles: (theme) => ({
+          styles: (theme: any) => ({
               root: {
                   backgroundColor: theme.fn.themeColor('pink', theme.fn.primaryShade),
                   //backgroundColor: theme.colorScheme === 'dark' ? theme.colors['muted-green'][7] : '#96A497',
@@ -94,7 +94,7 @@ export const theme = createTheme({
         xs: '0em',
     },
     other: {
-        globalStyles: (theme) => ({
+        globalStyles: (theme: any) => ({
             ':root': {
                 '--mantine-color-body': 'var(--mantine-color-muted-purple-filled)',
                 '--mantine-color-text': 'var(--mantine-color-muted-green-text)',
