@@ -24,9 +24,11 @@ export default function Attire() {
                 attending, so make sure it's something you'd be comfortable
                 wearing around them. </Text>
 
+            <Space h='sm' />
+
             <Text>If dressing up isn't for you, that's fine too.
                 Anything that makes you feel comfortable and happy is okay to wear.
-                For out-of-towners who don't know, Seattle tends to be pretty casual.
+                For out-of-towners who don't know, Seattle tends to be an only-get-fancy-if-you-want-to kind of place.
                 Here are examples of
                 things that are acceptable to wear to our wedding:
                 </Text>

@@ -10,3 +10,13 @@ In light mode, darkreader forces a bg of #dcdad7
 Need to make mantine's color unforceable?
 
 * 7/25/24
+
+Travel page:
+
+-- Flight discounts
+
+-- Hotel discounts
+
+-- Venue
+
+-- Recommendations (things to see and do and eat and drink)
