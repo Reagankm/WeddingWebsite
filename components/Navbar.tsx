@@ -7,7 +7,7 @@ import styles from './Navbar.module.css';
 export default function Navbar() {
     const paths = [
         { href: '/', label: 'Home' },
-        // { href: '/attire', label: 'Attire' },
+        { href: '/attire', label: 'Attire' },
         //{ href: '/faqs', label: 'FAQs' },
         { href: '/registry', label: 'Registry' },
         //{ href: '/schedule', label: 'Schedule' },
