@@ -1,3 +1,12 @@
 * 6/26/24
 
 Got "permission denied (publickey)" error when I tried to ssh into my existing Linode domains.  Tried searching my notes but didn't find previous cases of this.
+
+-
+Trying to make it work right with Darkreader.
+
+In light mode, darkreader forces a bg of #dcdad7
+
+Need to make mantine's color unforceable?
+
+* 7/25/24

@@ -5,7 +5,13 @@ import React from 'react';
 
 //const Julius = Julius_Sans_One({ weight: '400', subsets: ['latin'] });
 //const Tenor = Tenor_Sans({weight: '400', subsets: ['latin']});
-const Protest = Protest_Revolution({weight: '400', subsets: ['latin']});
+const protest = Protest_Revolution(
+    {weight: '400',
+        subsets: ['latin'],
+        display: 'swap',
+        adjustFontFallback: false
+
+    });
 //const Expletus = Expletus_Sans({weight: '400', subsets: ['latin']});
 //const Bungee = Bungee_Shade({weight: '400', subsets: ['latin']});
 //const Overlock = Overlock_SC({weight: '400', subsets: ['latin']});
@@ -20,7 +26,7 @@ const HomePage = () => {
                     <Container size={'md'} p={'xl'} visibleFrom='md'>
                         <Title>Kevin Ward</Title>
                         <Center>
-                        <Title style={{fontFamily: Protest.style.fontFamily, fontSize:'4rem'}}>&</Title>
+                        <Title style={{fontFamily: protest.style.fontFamily, fontSize:'4rem'}}>&</Title>
                         </Center>
                         <Title>Reagan Middlebrook</Title>
                     </Container>
@@ -28,7 +34,7 @@ const HomePage = () => {
                     <Container size={'xs'} p={'xl'} hiddenFrom='md'>
                         <Title order={3} >Kevin Ward</Title>
                         <Center>
-                            <Title  order={3} style={{fontFamily: Protest.style.fontFamily, fontSize:'4rem'}}>&</Title>
+                            <Title  order={3} style={{fontFamily: protest.style.fontFamily, fontSize:'4rem'}}>&</Title>
                         </Center>
                         <Title  order={3}>Reagan Middlebrook</Title>
                     </Container>
@@ -37,7 +43,7 @@ const HomePage = () => {
 
                     <Container>
                         <Title order={3} >Save the Date</Title>
-                        <Title style={{fontFamily: Protest.style.fontFamily}} order={3}>Seattle, WA</Title>
+                        <Title style={{fontFamily: protest.style.fontFamily}} order={3}>Seattle, WA</Title>
                         {/*<Title style={{fontFamily: Protest.style.fontFamily}} order={3}>Seattle, WA</Title>*/}
                         <Title order={3}>February 1, 2025</Title>
                         {/*<Title order={3} >Save the Date</Title>*/}
