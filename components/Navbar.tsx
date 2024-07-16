@@ -2,6 +2,7 @@ import { Container, Text } from '@mantine/core';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
+import styles from './Navbar.module.css';
 
 export default function Navbar() {
     const paths = [
@@ -21,7 +22,7 @@ export default function Navbar() {
             {paths.map(link => (
                 <div className="listItem" key={link.href}>
                     <div className={router.pathname === link.href ? 'active' : ''}>
-                        <Link href={link.href} >
+                        <Link className={styles.navbarLink} href={link.href} >
                             <Text fz={'1.25rem'}>{link.label}</Text>
                         </Link>
                         <div className={`underline ${router.pathname === link.href ? 'active' : ''}`}></div>

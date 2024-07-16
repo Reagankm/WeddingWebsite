@@ -1,17 +1,12 @@
 import PageWrapper from '@/components/PageWrapper/PageWrapper';
+import { protest } from '@/theme';
 import { Center, Container, Grid, Space, Title } from '@mantine/core';
 import { Protest_Revolution } from 'next/font/google';
 import React from 'react';
 
 //const Julius = Julius_Sans_One({ weight: '400', subsets: ['latin'] });
 //const Tenor = Tenor_Sans({weight: '400', subsets: ['latin']});
-const protest = Protest_Revolution(
-    {weight: '400',
-        subsets: ['latin'],
-        display: 'swap',
-        adjustFontFallback: false
 
-    });
 //const Expletus = Expletus_Sans({weight: '400', subsets: ['latin']});
 //const Bungee = Bungee_Shade({weight: '400', subsets: ['latin']});
 //const Overlock = Overlock_SC({weight: '400', subsets: ['latin']});

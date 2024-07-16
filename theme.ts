@@ -19,6 +19,13 @@ const Libre = Libre_Baskerville({weight: '400', subsets: ['latin']});
 
 // Display
 const Tenor = Tenor_Sans({weight: '400', subsets: ['latin']});
+export const protest = Protest_Revolution(
+    {weight: '400',
+        subsets: ['latin'],
+        display: 'swap',
+        adjustFontFallback: false
+
+    });
 //const Protest = Protest_Revolution({weight: '400', subsets: ['latin']});
 //const Expletus = Expletus_Sans({weight: '400', subsets: ['latin']});
 const Bungee = Bungee_Shade({weight: '400', subsets: ['latin']});
