@@ -8,10 +8,10 @@ export default function Navbar() {
     const paths = [
         { href: '/', label: 'Home' },
         { href: '/attire', label: 'Attire' },
-        //{ href: '/faqs', label: 'FAQs' },
+        //{ href: '/faqs', label: 'FAQ' },
         { href: '/registry', label: 'Registry' },
         //{ href: '/schedule', label: 'Schedule' },
-        //{ href: '/travel', label: 'Travel' },
+        { href: '/travel', label: 'Travel' },
     ];
 
     const router = useRouter();

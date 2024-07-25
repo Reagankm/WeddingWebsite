@@ -8,7 +8,7 @@ const Protest = Protest_Revolution({weight: '400', subsets: ['latin']});
 
 export default function Header() {
     return (
-        <Container size='xs' p='xs'>
+        <Container fluid size='xs' p='xs'>
             <Title visibleFrom='md' order={3}>Reagan <Title component='span' style={{fontFamily: Protest.style.fontFamily, fontSize:'2rem'}}>&</Title> Kevin</Title>
             <Title hiddenFrom='md' order={3}>Reagan <Title component='span' style={{fontFamily: Protest.style.fontFamily, fontSize:'1.75rem'}}>&</Title> Kevin</Title>
             <Navbar />
