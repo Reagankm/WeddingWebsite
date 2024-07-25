@@ -25,6 +25,7 @@ export default function Travel() {
 
             <Space h='sm' />
             <Title order={3}>Things To Do</Title>
+            <Text>We have too many recommendations to list here, so we
                 made <Link href={'https://www.google.com/maps/d/u/0/edit?mid=1ZHISOQfDBqCc14bhewJ3GMv_cdKbCAE&usp=sharing'}>this Google map</Link>
                 {' '}where you can view them all and easily see
                 if there's something cool near you.</Text>
