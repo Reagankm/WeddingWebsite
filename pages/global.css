@@ -9,8 +9,6 @@
     padding: 10px;
 }
 
-
-
 .underline {
     position: absolute;
     bottom: 0;
@@ -45,4 +43,12 @@
 .flip-horizontal {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+b {
+    text-shadow:
+    -.2px -.2px 0 #000,
+    .2px -.2px 0 #000,
+    -.2px .2px 0 #000,
+    .2px .2px 0 #000
 }

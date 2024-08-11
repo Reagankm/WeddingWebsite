@@ -37,7 +37,7 @@ const HomePage = () => {
                     <Space h="xl" />
 
                     <Container>
-                        <Title order={3} >Save the Date</Title>
+                        <Title order={3}>Save the Date</Title>
                         <Title style={{fontFamily: protest.style.fontFamily}} order={3}>Seattle, WA</Title>
                         {/*<Title style={{fontFamily: Protest.style.fontFamily}} order={3}>Seattle, WA</Title>*/}
                         <Title order={3}>February 1, 2025</Title>

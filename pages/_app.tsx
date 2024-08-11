@@ -1,15 +1,9 @@
+import { CSSVariablesResolver, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import {
-  createTheme,
-  CSSVariablesResolver,
-  MantineProvider,
-  virtualColor
-} from '@mantine/core';
 import { theme } from '../theme';
 import './global.css';
-import { Josefin_Sans, Julius_Sans_One } from 'next/font/google'
 //
 // const testTheme = createTheme({
 //     colors: {
