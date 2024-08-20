@@ -9,6 +9,10 @@
 
 `./deploy`
 
+### Troubleshooting
+
+If you get a hydration error locally, make sure the addblocker and darkmode are turned off. If they alter local HTML it can cause an issue where the code thinks the local and client versions of the HTML don't match.
+
 ### Things it started with that might not be accurate
 
 - `yarn dev` – start dev server
