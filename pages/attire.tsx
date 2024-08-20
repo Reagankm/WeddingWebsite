@@ -2,7 +2,7 @@ import PageWrapper from '@/components/PageWrapper/PageWrapper';
 import { protest } from '@/theme';
 import { Space, Text, Title } from '@mantine/core';
 import React from 'react';
-import Link from 'next/link';
+import Link from '../components/Link/Link';
 
 export default function Attire() {
     return (
