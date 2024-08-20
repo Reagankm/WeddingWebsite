@@ -27,7 +27,8 @@ export default function Registry() {
                     <Grid.Col span={6}>
                         <Flex visibleFrom='md' h='100%' //direction='col'
                               justify='center' align='center'>
-                            <Image src={person1}
+                            <Image priority
+                                   src={person1}
                                    alt='a person reading'
                                    className={'flip-horizontal'}
                                    style={{ objectFit: 'contain' }}
@@ -37,7 +38,8 @@ export default function Registry() {
                         </Flex>
                         <Flex hiddenFrom='md' h='100%' //direction='col'
                               justify='center' align='center'>
-                            <Image src={person1}
+                            <Image priority
+                                   src={person1}
                                    alt='a person reading'
                                    className={'flip-horizontal'}
                                    style={{ objectFit: 'contain' }}
