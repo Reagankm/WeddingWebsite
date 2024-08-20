@@ -1,24 +1,14 @@
+import { createTheme, MantineColorsTuple } from '@mantine/core';
 import {
-    DEFAULT_THEME,
-    createTheme,
-    virtualColor,
-    mergeMantineTheme,
-    MantineColorsTuple
-} from '@mantine/core';
-import { Josefin_Sans, Julius_Sans_One, Libre_Baskerville, Overlock_SC, Bungee_Shade, Expletus_Sans,
-    Protest_Revolution, Tenor_Sans
+    Julius_Sans_One,
+    Libre_Baskerville,
+    Protest_Revolution
 } from 'next/font/google';
-import { rgb } from 'polished';
-import localFont from 'next/font/local'
-
-const victorian = localFont({src: './assets/fonts/Victorian Supremacy Demo.otf'});
-const nouveco = localFont({src: './assets/fonts/Art Nouveco.ttf'});
 
 // Text
 const Libre = Libre_Baskerville({weight: '400', subsets: ['latin']});
 
 // Display
-const Tenor = Tenor_Sans({weight: '400', subsets: ['latin']});
 export const protest = Protest_Revolution(
     {weight: '400',
         subsets: ['latin'],
@@ -26,13 +16,7 @@ export const protest = Protest_Revolution(
         adjustFontFallback: false
 
     });
-//const Protest = Protest_Revolution({weight: '400', subsets: ['latin']});
-//const Expletus = Expletus_Sans({weight: '400', subsets: ['latin']});
-const Bungee = Bungee_Shade({weight: '400', subsets: ['latin']});
-//const Overlock = Overlock_SC({weight: '400', subsets: ['latin']});
-const Josefin = Josefin_Sans({ weight: '400', subsets: ['latin'] });
 const Julius = Julius_Sans_One({ weight: '400', subsets: ['latin'] });
-// const titleFont = Julius;
 const titleFont = Julius;
 
 
@@ -70,6 +54,7 @@ export const theme = createTheme({
                   //backgroundColor: theme.colorScheme === 'dark' ? theme.colors['muted-green'][7] : '#96A497',
                   //color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.black,
               },
+
           }),
       },
     },
@@ -90,6 +75,9 @@ export const theme = createTheme({
             },
             h4: {
                 fontSize: '1.5rem',
+            },
+            h5: {
+                fontSize: '1.2rem',
             }
         }
     },
