@@ -4,16 +4,6 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { theme } from '../theme';
 import './global.css';
-//
-// const testTheme = createTheme({
-//     colors: {
-//         primary: virtualColor({
-//             name: 'primary',
-//             dark: 'pink',
-//             light: 'cyan',
-//         }),
-//     },
-// });
 
 const resolver: CSSVariablesResolver = (theme) => ({
   variables: {

@@ -1,17 +1,7 @@
 import PageWrapper from '@/components/PageWrapper/PageWrapper';
 import { protest } from '@/theme';
 import { Center, Container, Grid, Space, Title } from '@mantine/core';
-import { Protest_Revolution } from 'next/font/google';
 import React from 'react';
-
-//const Julius = Julius_Sans_One({ weight: '400', subsets: ['latin'] });
-//const Tenor = Tenor_Sans({weight: '400', subsets: ['latin']});
-
-//const Expletus = Expletus_Sans({weight: '400', subsets: ['latin']});
-//const Bungee = Bungee_Shade({weight: '400', subsets: ['latin']});
-//const Overlock = Overlock_SC({weight: '400', subsets: ['latin']});
-//const Josefin = Josefin_Sans({ weight: '400', subsets: ['latin'] });
-//const victorian = localFont({src: '../assets/fonts/Victorian Supremacy Demo.otf'});
 
 const HomePage = () => {
     return (
@@ -39,10 +29,7 @@ const HomePage = () => {
                     <Container>
                         <Title order={3}>Save the Date</Title>
                         <Title style={{fontFamily: protest.style.fontFamily}} order={3}>Seattle, WA</Title>
-                        {/*<Title style={{fontFamily: Protest.style.fontFamily}} order={3}>Seattle, WA</Title>*/}
                         <Title order={3}>February 1, 2025</Title>
-                        {/*<Title order={3} >Save the Date</Title>*/}
-
                     </Container>
 
                 </Grid.Col>
