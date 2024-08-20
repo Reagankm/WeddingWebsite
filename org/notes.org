@@ -11,7 +11,7 @@ Need to make mantine's color unforceable?
 
 * 7/25/24
 
-Travel page:
+TravelDiscounts page:
 
 -- Flight discounts
 

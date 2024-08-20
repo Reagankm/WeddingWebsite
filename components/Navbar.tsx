@@ -11,7 +11,8 @@ export default function Navbar() {
         //{ href: '/faqs', label: 'FAQ' },
         { href: '/registry', label: 'Registry' },
         //{ href: '/schedule', label: 'Schedule' },
-        { href: '/travel', label: 'Travel' },
+        { href: '/thingsToDo', label: 'Things To Do'},
+        { href: '/travelDiscounts', label: 'Travel Discounts' },
     ];
 
     const router = useRouter();

@@ -3,7 +3,7 @@ import { Space, Text, Title } from '@mantine/core';
 import Link from '../components/Link/Link';
 import React from 'react';
 
-export default function Travel() {
+export default function TravelDiscounts() {
     return (
         <PageWrapper>
 
@@ -40,17 +40,6 @@ export default function Travel() {
                 anywhere in between January 26 and February 5.  (You must make your
                 reservation by December 31 or they'll release the rooms they're holding
                 for us.)  To book, <Link href={'https://www.marriott.com/events/start.mi?id=1723482010856&key=GRP'}>use this link</Link>.</Text>
-
-            <Space h='sm' />
-            <Title order={3}>Things To Do</Title>
-            <Text>We have too many recommendations to list here, so we
-                made <Link href={'https://www.google.com/maps/d/u/0/edit?mid=1ZHISOQfDBqCc14bhewJ3GMv_cdKbCAE&usp=sharing'}>this Google map</Link>
-                {' '}where you can view them all and easily see
-                if there's something cool near you.</Text>
-
-            <Text>We also want to call out <Link href={'https://www.walk-seattle.com/'}>Seattle Free Walking Tours</Link>, which does funny and informative walking tours of Pike Place Market and downtown/Pioneer Square.</Text>
-            <Text>And also <Link href={'https://www.walk-seattle.com/'}>Tours by Carter</Link> which has a really cool walking tour of 6 women who helped shape Seattle, including a madame, a snake oil salesman, and a mayor.</Text>
-
 
         </PageWrapper>
     )
