@@ -2,8 +2,9 @@
 
 ### Build and dev scripts
 
+- `yarn dev` - run the app with hot reloading of changes
 - `yarn build` - bundle app
-- `yarn start` - run app
+- `yarn start` - run app from the bundle that was built
 
 ### Deployment
 
