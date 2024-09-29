@@ -3,7 +3,7 @@ import { Protest_Revolution } from 'next/font/google';
 import Link from 'next/link';
 import React from 'react';
 
-import Navbar from '../Navbar';
+import Navbar from '../Navbar/Navbar';
 import styles from './Header.module.css';
 
 const Protest = Protest_Revolution({weight: '400', subsets: ['latin']});
