@@ -10,7 +10,7 @@ const HomePage = () => {
     const isMediumScreen = useMediaQuery('(min-width: 62em)');
 
     // Helper function to generate multiple <Space /> components
-    const renderSpaces = (count) => {
+    const renderSpaces = (count: number) => {
         return Array.from({ length: count }).map((_, index) => <Space key={index} h="xl" />);
     };
 
