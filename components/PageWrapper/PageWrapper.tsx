@@ -15,7 +15,7 @@ const PageWrapper = (props: PropsWithChildren) => {
         <Stack align='stretch' justify='center'>
             <Grid className={styles.mainRoot}>
                 <Grid.Col span={{base: 2, lg: 2, xs: 3}}>
-                    <Flex style={{ height: '100vh' }} visibleFrom='sm' // direction='col'
+                    <Flex style={{ height: '100vh' }} visibleFrom='sm'
                           justify='center' align='center'>
                         <Image priority alt='vine illustration' className={'bg-opacity-75'} src={vineSvg} />
                     </Flex>
@@ -33,7 +33,7 @@ const PageWrapper = (props: PropsWithChildren) => {
                     </Stack>
                 </Grid.Col>
                 <Grid.Col visibleFrom='md' span={{base: 2}}>
-                    <Flex style={{ height: '100vh' }} visibleFrom='lg' h='100%' //direction='col'
+                    <Flex style={{ height: '100vh' }} visibleFrom='lg' h='100%'
                           justify='center' align='center'>
                         <Image priority alt='vine illustration' className={'bg-opacity-75'} src={vineSvg} />
                     </Flex>

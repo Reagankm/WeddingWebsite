@@ -9,6 +9,7 @@ export default function Navbar() {
         { href: '/', label: 'Home' },
         { href: '/attire', label: 'Attire' },
         //{ href: '/faqs', label: 'FAQ' },
+        { href: '/photos', label: 'Photos' },
         { href: '/registry', label: 'Registry' },
         //{ href: '/schedule', label: 'Schedule' },
         { href: '/thingsToDo', label: 'Things To Do'},
