@@ -41,18 +41,17 @@ export default function TravelDiscounts() {
                 reservation by December 31 or they'll release the rooms they're holding
                 for us.)  To book, <Link href={'https://www.marriott.com/events/start.mi?id=1723482010856&key=GRP'}>use this link</Link>.</Text>
 
-            {/*Fucking booking shenanigans. Waiting for troubleshooting help from Kleinfelds*/}
-            {/*<Space h='xs' />*/}
-            {/*<Link href={'https://www.palladianhotel.com/'}>*/}
-            {/*    <Title order={5} td='underline'>Kimpton Palladian, 2000 Second Ave, Seattle, WA</Title>*/}
-            {/*</Link>*/}
-            {/*<Text>The Kimpton Palladian is a boutique hotel in Seattle's Belltown neighborhood and is very close*/}
-            {/*    to the famous Pike Place Market (where they throw the fish...). It's quirky and cute, this offer includes*/}
-            {/*free wifi, free coffee from 7am to 10am, free wine from 5pm to 6pm, and free 24 hour gym access.</Text>*/}
-            {/*<Text>We have rooms at a <b>discounted rate of $141/night</b> for stays*/}
-            {/*    anywhere in between January 28 and February 4.  (You must make your*/}
-            {/*    reservation by December 31 or they'll release the rooms they're holding*/}
-            {/*    for us.)  To book, <Link href={'https://www.kimptonhotels.com/redirect?path=hd&brandCode=KI&localeCode=en&regionCode=1&hotelCode=SEAPD&_PMID=99801505&GPC=MWS&cn=no&viewfullsite=true'}>use this link</Link>.</Text>*/}
+            <Space h='xs' />
+            <Link href={'https://www.palladianhotel.com/'}>
+                <Title order={5} td='underline'>Kimpton Palladian, 2000 Second Ave, Seattle, WA</Title>
+            </Link>
+            <Text>The Kimpton Palladian is a boutique hotel in Seattle's Belltown neighborhood and is very close
+                to the famous Pike Place Market (where they throw the fish...). This offer includes
+            free wifi, free coffee from 7am to 10am, free wine from 5pm to 6pm, and free 24 hour gym access.</Text>
+            <Text>We have rooms at a <b>discounted rate of $167/night</b> for stays
+                anywhere in between January 29 and February 3.  (You must make your
+                reservation by December 31 or they'll release the rooms they're holding
+                for us.)  To book, <Link href={'https://www.kimptonhotels.com/redirect?path=hd&brandCode=KI&localeCode=en&regionCode=1&hotelCode=SEAPD&_PMID=99801505&GPC=MWS&cn=no&viewfullsite=true'}>use this link</Link>.</Text>
 
 
         </PageWrapper>
