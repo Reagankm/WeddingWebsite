@@ -20,7 +20,8 @@ export default function ThingsToDo() {
                 if there's something cool near you.</Text>
 
             <Text>We also want to call out <Link href={'https://www.walk-seattle.com/'}>Seattle Free Walking Tours</Link>, which does funny and informative walking tours of Pike Place Market and downtown/Pioneer Square (and is owned and run by Reagan's cousin).</Text>
-            <Text>And also <Link href={'https://www.walk-seattle.com/'}>Tours by Carter</Link> which has a really cool walking tour of 6 women who helped shape Seattle, including a madame, a snake oil salesman, and a mayor (and is owned and run by a friend of Kevin and Reagan).</Text>
+            {/* Removed the Carter stuff since she was saying she's going to shut down for the winter. */}
+            {/*<Text>And also <Link href={'https://www.walk-seattle.com/'}>Tours by Carter</Link> which has a really cool walking tour of 6 women who helped shape Seattle, including a madame, a snake oil salesman, and a mayor (and is owned and run by a friend of Kevin and Reagan).</Text>*/}
 
             <Space h='xs' />
             <Flex visibleFrom='md' h='100%' //direction='col'
