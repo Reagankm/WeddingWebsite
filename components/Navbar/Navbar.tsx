@@ -11,6 +11,7 @@ export default function Navbar() {
         //{ href: '/faqs', label: 'FAQ' },
         { href: '/photos', label: 'Photos' },
         { href: '/registry', label: 'Registry' },
+        { href: '/rsvp', label: 'RSVP' },
         //{ href: '/schedule', label: 'Schedule' },
         { href: '/thingsToDo', label: 'Things To Do'},
         { href: '/travelDiscounts', label: 'Travel Discounts' },

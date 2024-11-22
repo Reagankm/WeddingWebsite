@@ -36,3 +36,5 @@ Map of city with relevant spots highlighted?
 
 * 8/20
 * 9/28
+* 10/17
+Tried adding CC license instead of copyright but didn't want people to think they could take/use our engagement photos
