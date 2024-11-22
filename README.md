@@ -8,6 +8,9 @@
 
 ### Deployment
 
+
+Note: I don't think I have to run the deploy script at all.  I think all I have to do is push to the main branch and Vercel will serve the new content. I should test this next time.
+
 `./deploy`
 
 ### Troubleshooting
