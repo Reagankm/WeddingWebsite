@@ -1,4 +1,4 @@
-import { Container, Text } from '@mantine/core';
+import { Group, Text } from '@mantine/core';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -21,7 +21,7 @@ export default function Navbar() {
     console.log('router: ', router);
 
     return (
-        <Container className="navbar">
+        <Group className="navbar">
             {paths.map(link => (
                 <div className="listItem" key={link.href}>
                     <div className={router.pathname === link.href ? 'active' : ''}>
@@ -32,6 +32,6 @@ export default function Navbar() {
                     </div>
                 </div>
             ))}
-        </Container>
+        </Group>
     );
 }
