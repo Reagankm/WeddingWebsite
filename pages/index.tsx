@@ -17,67 +17,102 @@ const HomePage = () => {
     return (
         <PageWrapper>
 
+          {isMediumScreen ? (
             <Container
-                style={isMediumScreen ? {
+                style={{
                     position: 'relative',
                     width: '100%',
                     height: '100vh',
-                    overflow: 'hidden' } : {}}>
-                {isMediumScreen && <Image
+                    overflow: 'hidden' }}>
+                <Image
                     src={ventress}
                     alt="Dog background"
                     layout="fill"
                     objectFit="cover"
                     priority
                     style={{ zIndex: -1 }}
-                />}
-                {isMediumScreen && (
-                    <div
-                        style={{
-                            position: 'absolute',
-                            top: 0,
-                            left: 0,
-                            width: '100%',
-                            height: '100%',
-                            backgroundColor: 'rgba(0, 0, 0, 0.25)', // Black with 33% opacity
-                            zIndex: -1, // Place it between the image and text
-                        }}
-                    />)
-                }
+                />
+                <div
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        backgroundColor: 'rgba(0, 0, 0, 0.25)', // Black with 33% opacity
+                        zIndex: -1, // Place it between the image and text
+                    }}
+                />
 
-            <Grid  style={isMediumScreen ? { height: '100%', zIndex: 1 } : {}}
+            <Grid  style={{ height: '100%', zIndex: 1 }}
                    align="center">
                 <Grid.Col>
                     <Container style={{
-                        color: isMediumScreen ? 'white' : 'black',
-                        textShadow: isMediumScreen ? '2px 2px 4px rgba(0, 0, 0, 0.7)' : ''  // Horizontal, Vertical, Blur Radius, Color
+                        color: 'white',
+                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)' // Horizontal, Vertical, Blur Radius, Color
                     }}
-                               size={isMediumScreen ? 'md' : 'xs'}
+                               size={'md'}
                                p={'xl'}>
-                        <Title order={isMediumScreen ? 1 : 3}>Kevin Ward</Title>
+                        <Title order={1}>Kevin Ward</Title>
                         <Center>
-                            <Title order={isMediumScreen ? 1 : 3}
+                            <Title order={1}
                                    style={{fontFamily: protest.style.fontFamily, fontSize:'4rem'}}>&</Title>
                         </Center>
-                        <Title order={isMediumScreen ? 1 : 3}>Reagan Middlebrook</Title>
+                        <Title order={1}>Reagan Middlebrook</Title>
                     </Container>
 
-                    {renderSpaces(isMediumScreen ? 8 : 1)}
+                    {renderSpaces(8)}
 
-                    <Container style={isMediumScreen ? {
+                    <Container style={{
                         position: 'absolute',
                         top: '65%',
                         left: '50%',
                         transform: 'translate(-50%, -50%)',
-                        color: 'white'} : {}}>
-                        <Title order={3}>Save the Date</Title>
-                        <Title style={{fontFamily: protest.style.fontFamily}} order={3}>Seattle, WA</Title>
-                        <Title order={3}>February 1, 2025</Title>
+                        color: 'white'}}>
+
+                      <Title order={3}>February 1, 2025</Title>
+                      <Title style={{fontFamily: protest.style.fontFamily}} order={4}>Doors at 2:30pm; Ceremony at 3pm</Title>
+                      <Title order={3}>WithinSoDo</Title>
+                      <Title order={4}>2916 Utah Ave S</Title>
+                      <Title order={4}>Seattle, WA</Title>
+
                     </Container>
 
                 </Grid.Col>
             </Grid>
+            </Container>) : (
+            <Container>
+              <Grid align="center">
+                <Grid.Col>
+                  <Container style={{
+                    color: 'black',
+                  }}
+                             size={'xs'}
+                             p={'xl'}>
+                    <Title order={3}>Kevin Ward</Title>
+                    <Center>
+                      <Title order={3}
+                             style={{fontFamily: protest.style.fontFamily, fontSize:'4rem'}}>&</Title>
+                    </Center>
+                    <Title order={3}>Reagan Middlebrook</Title>
+                  </Container>
+
+                  {renderSpaces(1)}
+
+                  <Container>
+
+                    <Title order={3}>February 1, 2025</Title>
+                    <Title style={{fontFamily: protest.style.fontFamily}} order={4}>Doors at 2:30pm; Ceremony at 3pm</Title>
+                    <Title order={3}>WithinSoDo</Title>
+                    <Title order={4}>2916 Utah Ave S</Title>
+                    <Title order={4}>Seattle, WA</Title>
+
+                  </Container>
+
+                </Grid.Col>
+              </Grid>
             </Container>
+          )}
         </PageWrapper>
     )
 }
