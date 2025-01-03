@@ -22,16 +22,19 @@ export default function Navbar() {
 
     return (
         <Group className="navbar">
-            {paths.map(link => (
+            {paths.map(link => {
+                const isActive = router.pathname.toLowerCase() === link.href.toLowerCase();
+
+                return (
                 <div className="listItem" key={link.href}>
-                    <div className={router.pathname === link.href ? 'active' : ''}>
+                    <div className={isActive ? 'active' : ''}>
                         <Link className={styles.navbarLink} href={link.href} >
                             <Text fz={'1.25rem'}>{link.label}</Text>
                         </Link>
                         <div className={`underline ${router.pathname === link.href ? 'active' : ''}`}></div>
                     </div>
                 </div>
-            ))}
+            )})}
         </Group>
     );
 }
