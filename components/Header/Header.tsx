@@ -13,7 +13,7 @@ export default function Header() {
   const router = useRouter();
   const isHome = router.pathname === '/';
 
-  const handleClick = (e) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (isHome) {
       e.preventDefault(); // Prevent navigation if already on the homepage
     }
