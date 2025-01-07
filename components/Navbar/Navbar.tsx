@@ -13,8 +13,8 @@ export default function Navbar() {
         { href: '/registry', label: 'Registry' },
         { href: '/rsvp', label: 'RSVP' },
         //{ href: '/schedule', label: 'Schedule' },
-        { href: '/thingsToDo', label: 'Things To Do'},
-        { href: '/travelDiscounts', label: 'Travel Discounts' },
+        { href: '/things-to-do', label: 'Things To Do'},
+        { href: '/travel-discounts', label: 'Travel Discounts' },
     ];
 
     const router = useRouter();
